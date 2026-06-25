@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="192" height="192" rx="42" fill="url(#blueGrad)" />
+  <!-- Inner circular ring -->
+  <circle cx="96" cy="96" r="68" fill="none" stroke="#ffffff" stroke-width="3" stroke-opacity="0.25" />
+  <!-- Greek letter Psi (Ψ) stylized -->
+  <g filter="url(#shadow)" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Center vertical bar -->
+    <path d="M96 52v88" />
+    <!-- Fork curvature -->
+    <path d="M58 72c0 30 18 46 38 46s38-16 38-46" />
+    <!-- Base horizontal stand -->
+    <path d="M78 140h36" stroke-width="10" />
+  </g>
+</svg>

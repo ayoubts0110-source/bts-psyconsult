@@ -1,0 +1,6 @@
+{
+  "name": "BTS PsyConsult",
+  "description": "An educational psychological screening and companion application based on the Diagnostic and Statistical Manual of Mental Disorders (DSM-5) criteria, featuring interactive assessments, an AI-guided assistant, and an index of diagnostic criteria.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
